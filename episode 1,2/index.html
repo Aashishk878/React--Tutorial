@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
     <div id = root>
         <!-- A simple hello world program in html css -->
         <!-- <h1>HELLO WORLD!!</h1> -->
 
         <!-- hello world using JS -->
          <!-- <script>
-            // create h1 tag
+            create h1 tag
             const heading = document.createElement("h1");
             heading.innerHTML = `HELLO WORLD USING JS`;
 
-            // put that h1 inside the root
+            put that h1 inside the root
             const root = document.getElementById("root");
             root.appendChild(heading);
          </script> -->
+         <h1>aashish</h1>
 
          
          <!-- !!!!!!! if this root already contains elements => root.render will replace everything!!!!!!!!!! -->
@@ -28,11 +30,13 @@
 
     <!-- Now to write hello world in react => we first need to get react into our project => that can be done using 1: CDN links => cdn links are content delivery networks := basically the websites where react is hoisted and we need to pull it from there -->
 
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> -->
     <!-- FIRST FILE => THIS IS THE CORE REACT FILE => USED EVERYWHERE => REACT NATIVE {PHONES}, WEBD etc.-->
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
     <!-- SECOND FILE => THIS IS THE FILE THAT HANDLES DOM MANIPULATION PART USING REACT -->
 
+    <!-- THIS IS NOT A PREFERRED WAY TO IMPORT REACT : A BETTER WAY IS TO DO IT IS THROUGH npm
+    bcuz FETCHING FROM NETWORK IS TIME CONSUMING -->
 
     <!-- TRY WRITING React ON CONSOLE -->
     <!-- TRY WRITING ReactDOM ON CONSOLE -->
@@ -106,7 +110,8 @@
     =========================================================================================================
     -->
 
-    <script src = "app.js"></script>
+    <!-- <script src = "app.js"></script> -->
+    <script type = "module" src = "app.js"></script>
 
     <!-- THE ORDER OF THE FILE SHOULD BE STRICTLY MENTIONED AS IT IS  -->
     

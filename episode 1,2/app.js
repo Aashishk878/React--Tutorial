@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 //==========  HELLO WORLD IN REACT  ====================//
 //React.createElement("which tag to create", {an object where we'll give attributes to our tag}, "what html to put inside the created tag")
 const heading = React.createElement(
@@ -68,8 +71,8 @@ const parent2 = React.createElement(
     )
 )
 
-root.render(parent2);
-console.log(parent2);
+// root.render(parent2);
+// console.log(parent2);
 
 //!!!!!!!!!!---- IT THROWS AN ERROR☝----!!!!!!!!!!!!
 
@@ -108,8 +111,8 @@ const parent3 = React.createElement(
 
 )
 
-root.render(parent3);
-console.log(parent3);
+// root.render(parent3);
+// console.log(parent3);
 
 //!!!!!!!!!!---- IT LOOKS TOO UGLY☝----!!!!!!!!!
 
